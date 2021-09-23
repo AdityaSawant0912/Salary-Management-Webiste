@@ -11,21 +11,21 @@ app.set('view engine', 'ejs');
 app.listen(port);
 
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', {title: 'Home'});
 })
 
 app.get('/login', (req, res) => {
-    res.render('login');
+    res.render('login', {title: 'Login'});
 })
 
 app.get('/about', (req, res) => {
-    res.render('about');
+    res.render('about', {title: 'About'});
 })
 
 app.get('/contact', (req, res) => {
-    res.render('contact');
+    res.render('contact', {title: 'Contact'});
 })
 
 app.use((req, res) => {
-    res.status(404).render('404');
+    res.status(404).render('404', {title: '404'});
 })
