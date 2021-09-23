@@ -4,5 +4,24 @@
     "express": "^4.17.1",
     "node": "^16.9.1",
     "nodemon": "^2.0.12"
-  }
+  },
+  "name": "salary-management-website",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdityaSawant0912/Salary-Management-Webiste.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdityaSawant0912/Salary-Management-Webiste/issues"
+  },
+  "homepage": "https://github.com/AdityaSawant0912/Salary-Management-Webiste#readme",
+  "description": ""
 }
